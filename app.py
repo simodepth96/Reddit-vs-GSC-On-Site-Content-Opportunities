@@ -542,7 +542,7 @@ with st.sidebar:
         GEMINI_MODEL = st.text_input("Gemini model", "gemini-3.8-flash")
         KG_KEY = st.text_input("Knowledge Graph Search API key", secret("GOOGLE_KG_API_KEY"), type="password")
         TS_KEY = st.text_input("TypeSafe API key", secret("TYPESAFE_API_KEY"), type="password")
-        JEV_MODEL = st.text_input("Jev model", "jev-latest")
+        JEV_MODEL = st.text_input("Jev model", jev-1.13.0")
         WORKERS = st.number_input("Parallel API calls", 1, 32, 8)
 
     with st.expander("Brand (content publisher)", expanded=True):
