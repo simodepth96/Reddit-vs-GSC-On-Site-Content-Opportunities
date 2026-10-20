@@ -20,16 +20,6 @@ Streamlit app that compares Reddit comments with your Google Search Console quer
 
 Cosine similarity is used internally for matching and gap detection only. It is not shown in the output.
 
-## Setup
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-```bash
-pip install torch --index-url https://download.pytorch.org/whl/cpu
-```
-
 ### API keys
 
 | Service | Key | Notes |
