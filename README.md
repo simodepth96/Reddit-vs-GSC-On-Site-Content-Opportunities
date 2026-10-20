@@ -2,7 +2,7 @@
 
 A framework that compares Reddit threads with your Google Search Console queries and scores each match as a content opportunity for a brand. Clusters are named by Gemini, their entities are confirmed in the Google Knowledge Graph, and TypeSafe's Jev is used in combination with cosine similarity to score the probability that your brand should target Reddit-based topics you are not yet ranking for.
 
-## Pipeline
+## What it Does?
 
 1. **Cleans queries:** lower-cases, drops non-ASCII queries, merges duplicates (clicks summed), and drops or corrects typos.
 2. **Cleans Reddit comments:** removes deleted/removed comments, optionally removes brand mentions, drops pleasantries, and filters by word count, character count and alpha ratio.
