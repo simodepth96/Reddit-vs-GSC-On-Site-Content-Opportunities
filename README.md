@@ -24,7 +24,7 @@ Cosine similarity is used internally for matching and gap detection only. It is 
 
 | Service | Key | Notes |
 |---|---|---|
-| Gemini API | `GEMINI_API_KEY` | Google AI Studio key. Default model alias is `gemini-flash-latest` (editable) |
+| Gemini API | `GEMINI_API_KEY` | Google AI Studio key. Default model alias is `gemini-3.8-flash` (editable) |
 | Knowledge Graph Search API | `GOOGLE_KG_API_KEY` | Enable "Knowledge Graph Search API" in your Google Cloud project and create an API key |
 | TypeSafe (Jev) | `TYPESAFE_API_KEY` | Create the key in the TypeSafe console. Default model is `jev-latest`; pin a version (e.g. `jev-1.13.0`) for reproducible scores |
 
