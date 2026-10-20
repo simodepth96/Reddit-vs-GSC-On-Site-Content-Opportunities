@@ -6,3 +6,5 @@ sentence-transformers>=2.7
 umap-learn>=0.5.5
 openpyxl>=3.1
 pyspellchecker>=0.8
+requests>=2.31
+google-genai>=1.0
