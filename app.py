@@ -63,7 +63,6 @@ JEV_QUESTIONS = {
 }
 
 
-# ---------------------------------------------------------------- helpers
 def trunc(s, n=220):
     s = str(s)
     return s if len(s) <= n else s[: n - 1] + "…"
@@ -540,7 +539,7 @@ with st.sidebar:
 
     with st.expander("API keys", expanded=True):
         GEMINI_KEY = st.text_input("Gemini API key", secret("GEMINI_API_KEY"), type="password")
-        GEMINI_MODEL = st.text_input("Gemini model", "gemini-flash-latest")
+        GEMINI_MODEL = st.text_input("Gemini model", "gemini-3.8-flash")
         KG_KEY = st.text_input("Knowledge Graph Search API key", secret("GOOGLE_KG_API_KEY"), type="password")
         TS_KEY = st.text_input("TypeSafe API key", secret("TYPESAFE_API_KEY"), type="password")
         JEV_MODEL = st.text_input("Jev model", "jev-latest")
