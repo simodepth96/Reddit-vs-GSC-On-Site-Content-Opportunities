@@ -518,7 +518,7 @@ def to_excel(res):
 
 # ------------------------------------------------------------------ sidebar
 st.title("Content Gaps Explorer - Reddit vs Google Search Console")
-
+st.caption("Compare Reddit threads with your Google Search Console queries and score each match as a content opportunity for a brand. Gemini names clusters, their entities are confirmed in the Google Knowledge Graph, and TypeSafe's Jev is used in combination with cosine similarity to score the probability of targeting Reddit-based topics")
 with st.sidebar:
     st.header("Inputs")
     q_file = st.file_uploader("GSC queries (xlsx/csv)", type=["xlsx", "xls", "csv"])
