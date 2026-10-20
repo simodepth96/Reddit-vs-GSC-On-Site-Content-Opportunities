@@ -517,7 +517,7 @@ def to_excel(res):
 
 
 # ------------------------------------------------------------------ sidebar
-st.title("Reddit thread vs GSC queries: content opportunities")
+st.title("Content Gaps Explorer - Reddit vs Google Search Console")
 
 with st.sidebar:
     st.header("Inputs")
